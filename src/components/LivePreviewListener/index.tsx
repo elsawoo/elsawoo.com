@@ -5,11 +5,11 @@ import React from "react";
 import { getClientSideURL } from "@/utilities/getURL";
 
 export const LivePreviewListener: React.FC = () => {
-  const router = useRouter();
-  return (
-    <PayloadLivePreview
-      refresh={router.refresh}
-      serverURL={getClientSideURL()}
-    />
-  );
+	const router = useRouter();
+	return (
+		<PayloadLivePreview
+			refresh={router.refresh}
+			serverURL={getClientSideURL()}
+		/>
+	);
 };
