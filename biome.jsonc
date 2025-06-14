@@ -1,48 +1,51 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.0.0-beta.6/schema.json",
-	"vcs": {
-		"enabled": true,
-		"clientKind": "git",
-		"useIgnoreFile": true
-	},
-	"files": {
-		"ignoreUnknown": false,
-		"includes": [
-			"**/*.{js,jsx,ts,tsx,json,jsonc,css}",
-			"!**/node_modules/**",
-			"!**/dist/**",
-			"!**/payload-types.ts",
-			"!.tmp",
-			"!**/.git",
-			"!**/.hg",
-			"!**/.pnp.*",
-			"!**/.svn",
-			"!**/.yarn/**",
-			"!**/build",
-			"!**/dist/**",
-			"!**/node_modules",
-			"!**/temp",
-			"!**/docs/**",
-			"!tsconfig.json"
-		]
-	},
-	"formatter": {
-		"enabled": true
-	},
-	"linter": {
-		"enabled": false
-	},
-	"javascript": {
-		"formatter": {
-			"quoteStyle": "double"
-		}
-	},
-	"assist": {
-		"enabled": true,
-		"actions": {
-			"source": {
-				"organizeImports": "on"
-			}
-		}
-	}
+  "$schema": "https://biomejs.dev/schemas/2.0.0-beta.6/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "includes": [
+      "**/*.{js,jsx,ts,tsx,json,jsonc,css,mjs}",
+      "!**/node_modules/**",
+      "!**/dist/**",
+      "!**/(payload)/**",
+      "!**/payload-types.ts",
+      "!.tmp",
+      "!**/.git",
+      "!**/.hg",
+      "!**/.pnp.*",
+      "!**/.svn",
+      "!**/.yarn/**",
+      "!**/build",
+      "!**/dist/**",
+      "!**/node_modules",
+      "!**/temp",
+      "!**/docs/**",
+      "!tsconfig.json",
+      "!package.json"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space"
+  },
+  "linter": {
+    "enabled": false
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double"
+    }
+  },
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  }
 }
