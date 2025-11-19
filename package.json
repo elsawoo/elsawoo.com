@@ -1,0 +1,23 @@
+{
+  "name": "elsawoo.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elsawoo/elsawoo.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsawoo/elsawoo.com/issues"
+  },
+  "homepage": "https://github.com/elsawoo/elsawoo.com#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
